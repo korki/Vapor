@@ -1,10 +1,13 @@
 @import url(//fonts.googleapis.com/css?subset=latin,cyrillic-ext,latin-ext,cyrillic&family=Open+Sans+Condensed:300|Merriweather:400,300,300italic,400italic,700,700italic|Roboto+Slab:400,300);
 
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+/*#7f8c8d;*/
 /* === Core Styles === */
+/* line 27, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\0000327}}
 body {
   background-color: #ffffff;
-  color: #7f8c8d;
+  color: #5a6465;
   font-size: 15px;
   font-weight: 100;
   line-height: 1.6em;
@@ -12,9 +15,13 @@ body {
   padding: 0;
   -webkit-font-smoothing: subpixel-antialiased;
 }
+/* line 38, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\0000338}}
 body * {
   max-height: 1000000em;
 }
+/* line 42, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\0000342}}
 h1,
 h2,
 h3,
@@ -25,10 +32,14 @@ dt,
 dd {
   font-family: "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
 }
+/* line 46, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\0000346}}
 h1,
 .post-meta {
   text-align: center;
 }
+/* line 50, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\0000350}}
 a,
 a:visited {
   color: #3498db;
@@ -36,10 +47,14 @@ a:visited {
   transition: color ease 0.7s;
   -webkit-transition: color ease 0.7s;
 }
+/* line 57, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\0000357}}
 a:focus,
 a:hover {
   color: #02090e;
 }
+/* line 61, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\0000361}}
 p,
 li,
 dt,
@@ -48,12 +63,18 @@ dd {
   font-weight: 100;
   line-height: 30px;
 }
+/* line 67, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\0000367}}
 dt {
   font-weight: 400;
 }
+/* line 71, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\0000371}}
 li {
   padding-left: 0.8em;
 }
+/* line 75, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\0000375}}
 pre {
   font-family: "Consolas", Courier, monospace;
   font-size: 1em;
@@ -67,11 +88,15 @@ pre {
   word-wrap: break-word;
   background-color: rgba(0, 0, 0, 0.05);
 }
+/* line 89, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\0000389}}
 p code {
   font-family: "Consolas", Courier, monospace;
   font-size: .8em;
   line-height: 1.2em;
 }
+/* line 95, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\0000395}}
 h1 {
   color: #151515;
   font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
@@ -81,6 +106,8 @@ h1 {
   margin: 0;
   padding: 0;
 }
+/* line 105, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003105}}
 #site-head,
 article,
 nav,
@@ -91,12 +118,18 @@ a.archive-link,
   max-width: 600px;
   width: 90%;
 }
+/* line 111, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003111}}
 #site-head img {
   max-width: 100%;
 }
+/* line 115, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003115}}
 article.preview {
   margin-bottom: 4em;
 }
+/* line 117, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003117}}
 article.preview p.readmore {
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   margin-top: 1em;
@@ -104,12 +137,16 @@ article.preview p.readmore {
   font-weight: 400;
 }
 /* === Header === */
+/* line 127, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003127}}
 #blog-logo {
   display: block;
   max-width: 100px;
   margin: 50px auto 0;
   text-align: center;
 }
+/* line 132, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003132}}
 #blog-logo div.bloglogo {
   width: 100px;
   height: 100px;
@@ -118,17 +155,24 @@ article.preview p.readmore {
   background-position: center center !important;
   background-color: #ffffff;
 }
+/* line 142, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003142}}
 h1.blog-title,
 h2.blog-description {
   text-align: center;
 }
+/* line 146, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003146}}
 h1.blog-title {
   font-size: 48px;
   line-height: 52px;
   margin-top: 10px;
   margin-bottom: 30px;
   padding: 0;
+  border-bottom: 1px solid #ecf0f1;
 }
+/* line 155, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003155}}
 h2.blog-description {
   border-bottom: 1px solid #ecf0f1;
   border-top: 1px solid #ecf0f1;
@@ -136,34 +180,46 @@ h2.blog-description {
   padding: .5em 1em;
   line-height: 1.2em;
 }
+/* line 163, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003163}}
 header.article-header,
 header.page-header {
   margin-bottom: 3em;
 }
 /* === Body === */
+/* line 169, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003169}}
 section.author,
 section.share {
   width: 100%;
   text-align: left;
   text-transform: none;
 }
+/* line 175, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003175}}
 section.share {
   margin-top: 1em;
   border-top: 1px solid #ecf0f1;
   padding-top: 1em;
   text-align: right;
 }
+/* line 182, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003182}}
 section.author h4,
 section.author p,
 section.share p {
   padding: 0;
   margin: 0;
 }
+/* line 187, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003187}}
 section.author h4 {
   font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-weight: 400;
   margin-bottom: 4px;
 }
+/* line 193, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003193}}
 section.author p.attr,
 section.share p.info {
   font-size: 16px;
@@ -171,17 +227,25 @@ section.share p.info {
   text-transform: uppercase;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
 }
+/* line 200, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003200}}
 section.author p.attr {
   margin-bottom: 2px;
 }
+/* line 204, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003204}}
 section.share p.info {
   display: inline-block;
 }
+/* line 208, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003208}}
 section.author p.bio {
   font-size: 16px;
   margin-left: 82px;
   line-height: 1.4em;
 }
+/* line 214, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003214}}
 blockquote {
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-size: 1.6em;
@@ -193,6 +257,8 @@ blockquote {
   margin-left: 1em;
   padding-left: 1em;
 }
+/* line 226, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003226}}
 blockquote p {
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-size: 1.6em;
@@ -201,6 +267,8 @@ blockquote p {
   font-style: italic;
   text-transform: uppercase;
 }
+/* line 235, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003235}}
 .post-meta {
   color: #95a5a6;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
@@ -210,10 +278,14 @@ blockquote p {
   margin-bottom: 1.2em;
   text-transform: uppercase;
 }
+/* line 245, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003245}}
 .tags {
   font-size: 16px;
   margin-bottom: 0.6em;
 }
+/* line 250, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003250}}
 div.authorimage {
   width: 70px;
   height: 70px;
@@ -223,12 +295,16 @@ div.authorimage {
   margin-right: 10px;
   float: left;
 }
+/* line 260, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003260}}
 h1.post-title a,
 h1.blog-title a {
   color: #151515;
   transition: color ease 0.7s;
   -webkit-transition: color ease 0.7s;
 }
+/* line 266, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003266}}
 h1.post-title a:focus,
 h1.post-title a:hover,
 h1.blog-title a:focus,
@@ -236,23 +312,33 @@ h1.blog-title a:hover {
   color: #3498db;
   text-decoration: none;
 }
+/* line 271, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003271}}
 h2 {
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   margin-top: 2em;
   text-transform: uppercase;
   font-weight: 300;
 }
+/* line 278, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003278}}
 section.post-content img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
 }
+/* line 284, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003284}}
 section.preview.archive h2 {
   text-align: left;
 }
+/* line 288, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003288}}
 section.author {
   overflow: hidden;
 }
+/* line 292, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003292}}
 img.userimage {
   width: 70px;
   max-width: 70px;
@@ -262,12 +348,16 @@ img.userimage {
   float: left;
 }
 /* === Footer === */
+/* line 303, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003303}}
 footer {
   background: rgba(0, 0, 0, 0.05);
   margin: 4em 0 0;
   padding: 2em 0;
   text-align: center;
 }
+/* line 310, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003310}}
 footer section {
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-weight: 300;
@@ -277,18 +367,24 @@ footer section {
   text-transform: uppercase;
   width: 90%;
 }
+/* line 320, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003320}}
 footer.post-footer {
   background: none;
   border-top: 1px solid #ecf0f1;
   margin-top: 1em;
 }
 /* === Navigation and Pagination === */
+/* line 328, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003328}}
 nav {
   border-bottom: 1px solid #ecf0f1;
   border-top: 1px solid #ecf0f1;
   margin-bottom: 3em;
   text-align: center;
 }
+/* line 335, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003335}}
 nav ul {
   list-style: none;
   margin: 0 auto;
@@ -297,6 +393,8 @@ nav ul {
   overflow: hidden;
   text-align: center;
 }
+/* line 344, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003344}}
 nav li {
   display: inline-block;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
@@ -308,20 +406,28 @@ nav li {
   text-transform: uppercase;
   width: 4em;
 }
+/* line 356, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003356}}
 nav li a {
   display: block;
   padding: .5em 0;
 }
+/* line 361, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003361}}
 nav li:first-child {
   margin-left: 0;
   margin-right: 0;
   text-align: right;
 }
+/* line 367, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003367}}
 nav li:last-child {
   margin-left: 0;
   margin-right: 0;
   text-align: left;
 }
+/* line 373, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003373}}
 a.archive-link {
   border-bottom: 1px solid #ecf0f1;
   border-top: 1px solid #ecf0f1;
@@ -335,6 +441,8 @@ a.archive-link {
   text-align: center;
   text-transform: uppercase;
 }
+/* line 387, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003387}}
 .pagination {
   position: relative;
   width: 90%;
@@ -342,13 +450,17 @@ a.archive-link {
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   text-transform: uppercase;
   font-size: 20px;
-  color: #7f8c8d;
+  color: #5a6465;
   text-align: center;
   padding: 0.5em 0;
 }
+/* line 399, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003399}}
 .pagination a {
   color: #3498db;
 }
+/* line 403, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003403}}
 .older-posts,
 .newer-posts {
   position: absolute;
@@ -358,32 +470,46 @@ a.archive-link {
   transition: color ease 0.7s;
   -webkit-transition: color ease 0.7s;
 }
+/* line 412, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003412}}
 .older-posts {
   right: 0;
 }
+/* line 416, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003416}}
 .page-number {
   display: inline-block;
   padding: 0;
   margin: 0;
 }
+/* line 422, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003422}}
 .newer-posts {
   left: 0;
 }
+/* line 426, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003426}}
 .older-posts:hover,
 .newer-posts:hover {
   color: #02090e;
   text-decoration: none;
 }
 /* === Extras === */
+/* line 433, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003433}}
 .gist {
   margin-top: 1em;
   margin-bottom: 1em;
   border-collapse: collapse !important;
 }
+/* line 439, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003439}}
 .gist .gist-file {
   font-family: "Consolas", Courier, monospace;
   border: 1px solid rgba(0, 0, 0, 0.05) !important;
 }
+/* line 444, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003444}}
 .gist .gist-file .gist-meta {
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif !important;
   font-weight: 300 !important;
@@ -392,26 +518,38 @@ a.archive-link {
   /* Hide GitHub attribution */
 
 }
+/* line 451, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003451}}
 .gist .gist-file .gist-meta a:visited {
   color: #3498db !important;
 }
+/* line 455, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003455}}
 .gist .gist-file .gist-data {
   background: #fdfdfd !important;
   border-bottom: none !important;
   /* Hide GitHub attribution */
 
 }
+/* line 460, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003460}}
 .gist .gist-file .gist-data .line-numbers {
   border-right: none !important;
 }
+/* line 464, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003464}}
 .gist .gist-file .gist-data .line-numbers,
 .gist .gist-file .gist-meta {
   background-color: rgba(0, 0, 0, 0.05) !important;
 }
+/* line 468, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003468}}
 .gist .gist-file .gist-data .line-numbers,
 .gist .gist-file .gist-data .line-pre {
   line-height: 1.2em !important;
 }
+/* line 472, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003472}}
 .hidden {
   text-indent: -9999px;
   visibility: hidden;
@@ -424,6 +562,8 @@ a.archive-link {
   font-weight: normal;
   font-style: normal;
 }
+/* line 486, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003486}}
 .icon-ghost,
 .icon-feed,
 .icon-twitter,
@@ -439,27 +579,41 @@ a.archive-link {
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
 }
+/* line 498, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003498}}
 .icon-twitter,
 .icon-google-plus,
 .icon-facebook {
   padding-left: 0.5em;
 }
+/* line 502, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003502}}
 .icon-ghost:before {
   content: "\e000";
 }
+/* line 506, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003506}}
 .icon-feed:before {
   content: "\e001";
 }
+/* line 510, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003510}}
 .icon-twitter:before {
   content: "\e002";
   font-size: 1.1em;
 }
+/* line 515, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003515}}
 .icon-google-plus:before {
   content: "\e003";
 }
+/* line 519, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003519}}
 .icon-facebook:before {
   content: "\e004";
 }
+/* line 523, screen.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003523}}
 .icon-ghost {
   font-size: 12px;
   position: relative;
@@ -467,22 +621,34 @@ a.archive-link {
 }
 /* === Media Queries === */
 @media only screen and (min-width: 320px) and (max-width: 500px) {
+  /* line 532, screen.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003532}}
   footer section span.copyright {
     display: block;
   }
+  /* line 536, screen.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003536}}
   nav li {
     width: auto;
   }
+  /* line 540, screen.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003540}}
   .older-posts,
   .newer-posts {
     position: static;
   }
+  /* line 544, screen.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003544}}
   .newer-posts {
     margin-bottom: 10px;
   }
+  /* line 548, screen.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003548}}
   .older-posts {
     margin-top: 10px;
   }
+  /* line 552, screen.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/korki\/dev\/ghost\/content\/themes\/vapor\/assets\/css\/screen\.less}line{font-family:\00003552}}
   .page-number {
     display: block;
   }
